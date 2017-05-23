@@ -1,0 +1,7 @@
+POST /twilio/Messages.json HTTP/1.1
+Host: iot-https-relay.appspot.com
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Content-Length: xxx
+ 
+token=c0f3fa10b2aeef9c7724e7e8fd2ed5c9&From=+61451266925&To=+61452192221&Body=myURLEncodedMessage&sid=ACfb14af1afd050239953526c78f2cfb18
